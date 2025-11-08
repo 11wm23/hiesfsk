@@ -1,0 +1,612 @@
+[
+  {
+    "name": "北京首都国际机场",
+    "code": "ZBAA",
+    "location": "中国 · 北京",
+    "tower": "118.800 MHz",
+    "ground": "121.700 MHz",
+    "approach": "124.300 MHz",
+    "clearance": "119.300 MHz",
+    "area": "125.400 MHz"
+  },
+  {
+    "name": "北京大兴国际机场",
+    "code": "ZBAD",
+    "location": "中国 · 北京",
+    "tower": "118.300 MHz",
+    "ground": "121.900 MHz",
+    "approach": "125.700 MHz",
+    "clearance": "119.900 MHz",
+    "area": "127.800 MHz"
+  },
+  {
+    "name": "上海浦东国际机场",
+    "code": "ZSPD",
+    "location": "中国 · 上海",
+    "tower": "118.700 MHz",
+    "ground": "121.600 MHz",
+    "approach": "125.500 MHz",
+    "clearance": "119.500 MHz",
+    "area": "127.200 MHz"
+  },
+  {
+    "name": "上海虹桥国际机场",
+    "code": "ZSSS",
+    "location": "中国 · 上海",
+    "tower": "118.200 MHz",
+    "ground": "121.900 MHz",
+    "approach": "125.900 MHz",
+    "clearance": "119.700 MHz",
+    "area": "127.400 MHz"
+  },
+  {
+    "name": "广州白云国际机场",
+    "code": "ZGGG",
+    "location": "中国 · 广州",
+    "tower": "118.100 MHz",
+    "ground": "121.800 MHz",
+    "approach": "126.100 MHz",
+    "clearance": "119.900 MHz",
+    "area": "127.700 MHz"
+  },
+  {
+    "name": "深圳宝安国际机场",
+    "code": "ZGSZ",
+    "location": "中国 · 深圳",
+    "tower": "118.300 MHz",
+    "ground": "121.500 MHz",
+    "approach": "126.300 MHz",
+    "clearance": "120.100 MHz",
+    "area": "128.100 MHz"
+  },
+  {
+    "name": "成都双流国际机场",
+    "code": "ZUUU",
+    "location": "中国 · 成都",
+    "tower": "118.500 MHz",
+    "ground": "121.300 MHz",
+    "approach": "126.500 MHz",
+    "clearance": "120.300 MHz",
+    "area": "128.300 MHz"
+  },
+  {
+    "name": "成都天府国际机场",
+    "code": "ZUTF",
+    "location": "中国 · 成都",
+    "tower": "118.900 MHz",
+    "ground": "122.100 MHz",
+    "approach": "126.800 MHz",
+    "clearance": "120.600 MHz",
+    "area": "128.600 MHz"
+  },
+  {
+    "name": "西安咸阳国际机场",
+    "code": "ZLXY",
+    "location": "中国 · 西安",
+    "tower": "118.900 MHz",
+    "ground": "121.400 MHz",
+    "approach": "126.700 MHz",
+    "clearance": "120.500 MHz",
+    "area": "128.500 MHz"
+  },
+  {
+    "name": "重庆江北国际机场",
+    "code": "ZUCK",
+    "location": "中国 · 重庆",
+    "tower": "119.000 MHz",
+    "ground": "122.000 MHz",
+    "approach": "126.900 MHz",
+    "clearance": "120.700 MHz",
+    "area": "128.700 MHz"
+  },
+  {
+    "name": "香港国际机场",
+    "code": "VHHH",
+    "location": "中国 · 香港",
+    "tower": "118.400 MHz",
+    "ground": "121.200 MHz",
+    "approach": "127.100 MHz",
+    "clearance": "120.900 MHz",
+    "area": "128.900 MHz"
+  },
+  {
+    "name": "澳门国际机场",
+    "code": "VMMC",
+    "location": "中国 · 澳门",
+    "tower": "118.600 MHz",
+    "ground": "121.400 MHz",
+    "approach": "127.200 MHz",
+    "clearance": "121.100 MHz",
+    "area": "129.000 MHz"
+  },
+  {
+    "name": "台北桃园国际机场",
+    "code": "RCTP",
+    "location": "中国 · 台湾",
+    "tower": "118.600 MHz",
+    "ground": "121.100 MHz",
+    "approach": "127.300 MHz",
+    "clearance": "121.000 MHz",
+    "area": "129.100 MHz"
+  },
+  {
+    "name": "台北松山国际机场",
+    "code": "RCSS",
+    "location": "中国 · 台湾",
+    "tower": "118.800 MHz",
+    "ground": "121.300 MHz",
+    "approach": "127.500 MHz",
+    "clearance": "121.200 MHz",
+    "area": "129.200 MHz"
+  },
+  {
+    "name": "武汉天河国际机场",
+    "code": "ZHHH",
+    "location": "中国 · 武汉",
+    "tower": "118.400 MHz",
+    "ground": "121.600 MHz",
+    "approach": "126.200 MHz",
+    "clearance": "120.000 MHz",
+    "area": "128.000 MHz"
+  },
+  {
+    "name": "郑州新郑国际机场",
+    "code": "ZHCC",
+    "location": "中国 · 郑州",
+    "tower": "118.200 MHz",
+    "ground": "121.500 MHz",
+    "approach": "126.000 MHz",
+    "clearance": "119.800 MHz",
+    "area": "127.900 MHz"
+  },
+  {
+    "name": "杭州萧山国际机场",
+    "code": "ZSHC",
+    "location": "中国 · 杭州",
+    "tower": "118.500 MHz",
+    "ground": "121.700 MHz",
+    "approach": "125.800 MHz",
+    "clearance": "119.600 MHz",
+    "area": "127.500 MHz"
+  },
+  {
+    "name": "南京禄口国际机场",
+    "code": "ZSNJ",
+    "location": "中国 · 南京",
+    "tower": "118.300 MHz",
+    "ground": "121.800 MHz",
+    "approach": "125.600 MHz",
+    "clearance": "119.400 MHz",
+    "area": "127.300 MHz"
+  },
+  {
+    "name": "青岛流亭国际机场",
+    "code": "ZSQD",
+    "location": "中国 · 青岛",
+    "tower": "118.700 MHz",
+    "ground": "122.000 MHz",
+    "approach": "126.400 MHz",
+    "clearance": "120.200 MHz",
+    "area": "128.200 MHz"
+  },
+  {
+    "name": "青岛胶东国际机场",
+    "code": "ZSQC",
+    "location": "中国 · 青岛",
+    "tower": "118.900 MHz",
+    "ground": "122.200 MHz",
+    "approach": "126.600 MHz",
+    "clearance": "120.400 MHz",
+    "area": "128.400 MHz"
+  },
+  {
+    "name": "长沙黄花国际机场",
+    "code": "ZGHA",
+    "location": "中国 · 长沙",
+    "tower": "118.100 MHz",
+    "ground": "121.900 MHz",
+    "approach": "126.300 MHz",
+    "clearance": "120.100 MHz",
+    "area": "128.100 MHz"
+  },
+  {
+    "name": "厦门高崎国际机场",
+    "code": "ZSAM",
+    "location": "中国 · 厦门",
+    "tower": "118.200 MHz",
+    "ground": "121.400 MHz",
+    "approach": "125.700 MHz",
+    "clearance": "119.700 MHz",
+    "area": "127.600 MHz"
+  },
+  {
+    "name": "厦门翔安国际机场",
+    "code": "ZSXZ",
+    "location": "中国 · 厦门",
+    "tower": "118.400 MHz",
+    "ground": "121.600 MHz",
+    "approach": "125.900 MHz",
+    "clearance": "119.900 MHz",
+    "area": "127.800 MHz"
+  },
+  {
+    "name": "昆明长水国际机场",
+    "code": "ZPPP",
+    "location": "中国 · 昆明",
+    "tower": "118.300 MHz",
+    "ground": "121.700 MHz",
+    "approach": "126.100 MHz",
+    "clearance": "119.900 MHz",
+    "area": "127.700 MHz"
+  },
+  {
+    "name": "天津滨海国际机场",
+    "code": "ZBTJ",
+    "location": "中国 · 天津",
+    "tower": "118.500 MHz",
+    "ground": "121.600 MHz",
+    "approach": "125.500 MHz",
+    "clearance": "119.500 MHz",
+    "area": "127.200 MHz"
+  },
+  {
+    "name": "沈阳桃仙国际机场",
+    "code": "ZYTX",
+    "location": "中国 · 沈阳",
+    "tower": "118.600 MHz",
+    "ground": "121.800 MHz",
+    "approach": "125.600 MHz",
+    "clearance": "119.600 MHz",
+    "area": "127.300 MHz"
+  },
+  {
+    "name": "大连周水子国际机场",
+    "code": "ZYTL",
+    "location": "中国 · 大连",
+    "tower": "118.700 MHz",
+    "ground": "121.900 MHz",
+    "approach": "125.700 MHz",
+    "clearance": "119.700 MHz",
+    "area": "127.400 MHz"
+  },
+  {
+    "name": "西安咸阳国际机场",
+    "code": "ZLXY",
+    "location": "中国 · 西安",
+    "tower": "118.900 MHz",
+    "ground": "121.400 MHz",
+    "approach": "126.700 MHz",
+    "clearance": "120.500 MHz",
+    "area": "128.500 MHz"
+  },
+  {
+    "name": "乌鲁木齐地窝堡国际机场",
+    "code": "ZWWW",
+    "location": "中国 · 乌鲁木齐",
+    "tower": "118.200 MHz",
+    "ground": "121.500 MHz",
+    "approach": "125.900 MHz",
+    "clearance": "119.800 MHz",
+    "area": "127.600 MHz"
+  },
+  {
+    "name": "贵阳龙洞堡国际机场",
+    "code": "ZUGY",
+    "location": "中国 · 贵阳",
+    "tower": "118.400 MHz",
+    "ground": "121.700 MHz",
+    "approach": "126.200 MHz",
+    "clearance": "120.000 MHz",
+    "area": "127.900 MHz"
+  },
+  {
+    "name": "福州长乐国际机场",
+    "code": "ZSFZ",
+    "location": "中国 · 福州",
+    "tower": "118.500 MHz",
+    "ground": "121.800 MHz",
+    "approach": "126.000 MHz",
+    "clearance": "119.600 MHz",
+    "area": "127.500 MHz"
+  },
+  {
+    "name": "哈尔滨太平国际机场",
+    "code": "ZYHB",
+    "location": "中国 · 哈尔滨",
+    "tower": "118.800 MHz",
+    "ground": "122.000 MHz",
+    "approach": "126.400 MHz",
+    "clearance": "119.800 MHz",
+    "area": "127.700 MHz"
+  },
+  {
+    "name": "济南遥墙国际机场",
+    "code": "ZSJN",
+    "location": "中国 · 济南",
+    "tower": "118.300 MHz",
+    "ground": "121.600 MHz",
+    "approach": "125.800 MHz",
+    "clearance": "119.400 MHz",
+    "area": "127.400 MHz"
+  },
+  {
+    "name": "南宁吴圩国际机场",
+    "code": "ZGNN",
+    "location": "中国 · 南宁",
+    "tower": "118.100 MHz",
+    "ground": "121.400 MHz",
+    "approach": "125.600 MHz",
+    "clearance": "119.500 MHz",
+    "area": "127.300 MHz"
+  },
+  {
+    "name": "南昌昌北国际机场",
+    "code": "ZSCN",
+    "location": "中国 · 南昌",
+    "tower": "118.600 MHz",
+    "ground": "121.900 MHz",
+    "approach": "126.100 MHz",
+    "clearance": "119.700 MHz",
+    "area": "127.600 MHz"
+  },
+  {
+    "name": "呼和浩特白塔国际机场",
+    "code": "ZBHH",
+    "location": "中国 · 呼和浩特",
+    "tower": "118.700 MHz",
+    "ground": "121.500 MHz",
+    "approach": "125.700 MHz",
+    "clearance": "119.600 MHz",
+    "area": "127.500 MHz"
+  },
+  {
+    "name": "合肥新桥国际机场",
+    "code": "ZSLL",
+    "location": "中国 · 合肥",
+    "tower": "118.400 MHz",
+    "ground": "121.700 MHz",
+    "approach": "125.900 MHz",
+    "clearance": "119.800 MHz",
+    "area": "127.800 MHz"
+  },
+  {
+    "name": "石家庄正定国际机场",
+    "code": "ZBSJ",
+    "location": "中国 · 石家庄",
+    "tower": "118.200 MHz",
+    "ground": "121.600 MHz",
+    "approach": "125.600 MHz",
+    "clearance": "119.400 MHz",
+    "area": "127.400 MHz"
+  },
+  {
+    "name": "太原武宿国际机场",
+    "code": "ZBYN",
+    "location": "中国 · 太原",
+    "tower": "118.500 MHz",
+    "ground": "121.800 MHz",
+    "approach": "125.800 MHz",
+    "clearance": "119.500 MHz",
+    "area": "127.500 MHz"
+  },
+  {
+    "name": "兰州中川国际机场",
+    "code": "ZLLL",
+    "location": "中国 · 兰州",
+    "tower": "118.300 MHz",
+    "ground": "121.400 MHz",
+    "approach": "125.700 MHz",
+    "clearance": "119.600 MHz",
+    "area": "127.300 MHz"
+  },
+  {
+    "name": "西宁曹家堡国际机场",
+    "code": "ZLXN",
+    "location": "中国 · 西宁",
+    "tower": "118.600 MHz",
+    "ground": "121.500 MHz",
+    "approach": "126.000 MHz",
+    "clearance": "119.700 MHz",
+    "area": "127.600 MHz"
+  },
+  {
+    "name": "银川河东国际机场",
+    "code": "ZLIC",
+    "location": "中国 · 银川",
+    "tower": "118.400 MHz",
+    "ground": "121.600 MHz",
+    "approach": "125.900 MHz",
+    "clearance": "119.800 MHz",
+    "area": "127.700 MHz"
+  },
+  {
+    "name": "拉萨贡嘎国际机场",
+    "code": "ZULS",
+    "location": "中国 · 拉萨",
+    "tower": "118.800 MHz",
+    "ground": "121.900 MHz",
+    "approach": "126.200 MHz",
+    "clearance": "120.000 MHz",
+    "area": "128.000 MHz"
+  },
+  {
+    "name": "海口美兰国际机场",
+    "code": "ZJHK",
+    "location": "中国 · 海口",
+    "tower": "118.100 MHz",
+    "ground": "121.300 MHz",
+    "approach": "125.500 MHz",
+    "clearance": "119.300 MHz",
+    "area": "127.200 MHz"
+  },
+  {
+    "name": "三亚凤凰国际机场",
+    "code": "ZJSY",
+    "location": "中国 · 三亚",
+    "tower": "118.200 MHz",
+    "ground": "121.400 MHz",
+    "approach": "125.600 MHz",
+    "clearance": "119.400 MHz",
+    "area": "127.300 MHz"
+  },
+  {
+    "name": "珠海金湾国际机场",
+    "code": "ZGSD",
+    "location": "中国 · 珠海",
+    "tower": "118.400 MHz",
+    "ground": "121.600 MHz",
+    "approach": "125.800 MHz",
+    "clearance": "119.600 MHz",
+    "area": "127.500 MHz"
+  },
+  {
+    "name": "宁波栎社国际机场",
+    "code": "ZSNB",
+    "location": "中国 · 宁波",
+    "tower": "118.500 MHz",
+    "ground": "121.700 MHz",
+    "approach": "125.900 MHz",
+    "clearance": "119.700 MHz",
+    "area": "127.600 MHz"
+  },
+  {
+    "name": "温州龙湾国际机场",
+    "code": "ZSWZ",
+    "location": "中国 · 温州",
+    "tower": "118.300 MHz",
+    "ground": "121.500 MHz",
+    "approach": "125.700 MHz",
+    "clearance": "119.500 MHz",
+    "area": "127.400 MHz"
+  },
+  {
+    "name": "徐州观音国际机场",
+    "code": "ZSXZ",
+    "location": "中国 · 徐州",
+    "tower": "118.200 MHz",
+    "ground": "121.600 MHz",
+    "approach": "125.600 MHz",
+    "clearance": "119.400 MHz",
+    "area": "127.300 MHz"
+  },
+  {
+    "name": "常州奔牛国际机场",
+    "code": "ZSCG",
+    "location": "中国 · 常州",
+    "tower": "118.400 MHz",
+    "ground": "121.800 MHz",
+    "approach": "125.800 MHz",
+    "clearance": "119.600 MHz",
+    "area": "127.500 MHz"
+  },
+  {
+    "name": "南通兴东国际机场",
+    "code": "ZSNT",
+    "location": "中国 · 南通",
+    "tower": "118.600 MHz",
+    "ground": "121.900 MHz",
+    "approach": "126.000 MHz",
+    "clearance": "119.800 MHz",
+    "area": "127.700 MHz"
+  },
+  {
+    "name": "无锡硕放国际机场",
+    "code": "ZSWX",
+    "location": "中国 · 无锡",
+    "tower": "118.700 MHz",
+    "ground": "122.000 MHz",
+    "approach": "126.100 MHz",
+    "clearance": "119.900 MHz",
+    "area": "127.800 MHz"
+  },
+  {
+    "name": "烟台蓬莱国际机场",
+    "code": "ZSYT",
+    "location": "中国 · 烟台",
+    "tower": "118.500 MHz",
+    "ground": "121.700 MHz",
+    "approach": "125.900 MHz",
+    "clearance": "119.700 MHz",
+    "area": "127.600 MHz"
+  },
+  {
+    "name": "威海大水泊国际机场",
+    "code": "ZSWH",
+    "location": "中国 · 威海",
+    "tower": "118.300 MHz",
+    "ground": "121.600 MHz",
+    "approach": "125.800 MHz",
+    "clearance": "119.500 MHz",
+    "area": "127.400 MHz"
+  },
+  {
+    "name": "临沂启阳国际机场",
+    "code": "ZSLY",
+    "location": "中国 · 临沂",
+    "tower": "118.200 MHz",
+    "ground": "121.500 MHz",
+    "approach": "125.700 MHz",
+    "clearance": "119.400 MHz",
+    "area": "127.300 MHz"
+  },
+  {
+    "name": "济宁曲阜机场",
+    "code": "ZSJG",
+    "location": "中国 · 济宁",
+    "tower": "118.400 MHz",
+    "ground": "121.800 MHz",
+    "approach": "125.900 MHz",
+    "clearance": "119.600 MHz",
+    "area": "127.500 MHz"
+  },
+  {
+    "name": "包头东河国际机场",
+    "code": "ZBOW",
+    "location": "中国 · 包头",
+    "tower": "118.600 MHz",
+    "ground": "121.900 MHz",
+    "approach": "126.000 MHz",
+    "clearance": "119.700 MHz",
+    "area": "127.600 MHz"
+  },
+  {
+    "name": "鄂尔多斯伊金霍洛国际机场",
+    "code": "ZBDS",
+    "location": "中国 · 鄂尔多斯",
+    "tower": "118.700 MHz",
+    "ground": "122.000 MHz",
+    "approach": "126.100 MHz",
+    "clearance": "119.800 MHz",
+    "area": "127.700 MHz"
+  },
+  {
+    "name": "呼伦贝尔东山国际机场",
+    "code": "ZBLA",
+    "location": "中国 · 呼伦贝尔",
+    "tower": "118.800 MHz",
+    "ground": "122.100 MHz",
+    "approach": "126.200 MHz",
+    "clearance": "119.900 MHz",
+    "area": "127.800 MHz"
+  },
+  {
+    "name": "赤峰玉龙机场",
+    "code": "ZBCF",
+    "location": "中国 · 赤峰",
+    "tower": "118.900 MHz",
+    "ground": "122.200 MHz",
+    "approach": "126.300 MHz",
+    "clearance": "120.000 MHz",
+    "area": "127.900 MHz"
+  },
+  {
+    "name": "通辽机场",
+    "code": "ZBTL",
+    "location": "中国 · 通辽",
+    "tower": "119.000 MHz",
+    "ground": "122.300 MHz",
+    "approach": "126.400 MHz",
+    "clearance": "120.100 MHz",
+    "area": "128.000 MHz"
+  }
+]

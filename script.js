@@ -1,206 +1,55 @@
-// 模拟机场频率数据库
-const airportDatabase = [
-  {
-    name: "北京首都国际机场",
-    code: "ZBAA",
-    location: "中国 · 北京",
-    tower: "118.800 MHz",
-    ground: "121.700 MHz",
-    approach: "124.300 MHz",
-    clearance: "119.300 MHz",
-    area: "125.400 MHz"
-  },
-  {
-    name: "上海浦东国际机场",
-    code: "ZSPD",
-    location: "中国 · 上海",
-    tower: "118.700 MHz",
-    ground: "121.600 MHz",
-    approach: "125.500 MHz",
-    clearance: "119.500 MHz",
-    area: "127.200 MHz"
-  },
-  {
-    name: "上海虹桥国际机场",
-    code: "ZSSS",
-    location: "中国 · 上海",
-    tower: "118.200 MHz",
-    ground: "121.900 MHz",
-    approach: "125.900 MHz",
-    clearance: "119.700 MHz",
-    area: "127.400 MHz"
-  },
-  {
-    name: "广州白云国际机场",
-    code: "ZGGG",
-    location: "中国 · 广州",
-    tower: "118.100 MHz",
-    ground: "121.800 MHz",
-    approach: "126.100 MHz",
-    clearance: "119.900 MHz",
-    area: "127.700 MHz"
-  },
-  {
-    name: "深圳宝安国际机场",
-    code: "ZGSZ",
-    location: "中国 · 深圳",
-    tower: "118.300 MHz",
-    ground: "121.500 MHz",
-    approach: "126.300 MHz",
-    clearance: "120.100 MHz",
-    area: "128.100 MHz"
-  },
-  {
-    name: "成都双流国际机场",
-    code: "ZUUU",
-    location: "中国 · 成都",
-    tower: "118.500 MHz",
-    ground: "121.300 MHz",
-    approach: "126.500 MHz",
-    clearance: "120.300 MHz",
-    area: "128.300 MHz"
-  },
-  {
-    name: "西安咸阳国际机场",
-    code: "ZLXY",
-    location: "中国 · 西安",
-    tower: "118.900 MHz",
-    ground: "121.400 MHz",
-    approach: "126.700 MHz",
-    clearance: "120.500 MHz",
-    area: "128.500 MHz"
-  },
-  {
-    name: "重庆江北国际机场",
-    code: "ZUCK",
-    location: "中国 · 重庆",
-    tower: "119.000 MHz",
-    ground: "122.000 MHz",
-    approach: "126.900 MHz",
-    clearance: "120.700 MHz",
-    area: "128.700 MHz"
-  },
-  {
-    name: "香港国际机场",
-    code: "VHHH",
-    location: "中国 · 香港",
-    tower: "118.400 MHz",
-    ground: "121.200 MHz",
-    approach: "127.100 MHz",
-    clearance: "120.900 MHz",
-    area: "128.900 MHz"
-  },
-  {
-    name: "台北桃园国际机场",
-    code: "RCTP",
-    location: "中国 · 台湾",
-    tower: "118.600 MHz",
-    ground: "121.100 MHz",
-    approach: "127.300 MHz",
-    clearance: "121.000 MHz",
-    area: "129.100 MHz"
-  },
-  {
-    name: "东京成田国际机场",
-    code: "RJAA",
-    location: "日本 · 东京",
-    tower: "118.750 MHz",
-    ground: "121.750 MHz",
-    approach: "127.500 MHz",
-    clearance: "121.200 MHz",
-    area: "129.300 MHz"
-  },
-  {
-    name: "东京羽田国际机场",
-    code: "RJTT",
-    location: "日本 · 东京",
-    tower: "118.850 MHz",
-    ground: "121.850 MHz",
-    approach: "127.700 MHz",
-    clearance: "121.400 MHz",
-    area: "129.500 MHz"
-  },
-  {
-    name: "洛杉矶国际机场",
-    code: "KLAX",
-    location: "美国 · 洛杉矶",
-    tower: "118.250 MHz",
-    ground: "121.950 MHz",
-    approach: "127.900 MHz",
-    clearance: "121.600 MHz",
-    area: "129.700 MHz"
-  },
-  {
-    name: "纽约肯尼迪国际机场",
-    code: "KJFK",
-    location: "美国 · 纽约",
-    tower: "118.350 MHz",
-    ground: "122.050 MHz",
-    approach: "128.100 MHz",
-    clearance: "121.800 MHz",
-    area: "129.900 MHz"
-  },
-  {
-    name: "伦敦希思罗国际机场",
-    code: "EGLL",
-    location: "英国 · 伦敦",
-    tower: "118.450 MHz",
-    ground: "122.150 MHz",
-    approach: "128.300 MHz",
-    clearance: "122.000 MHz",
-    area: "130.100 MHz"
-  },
-  {
-    name: "法兰克福国际机场",
-    code: "EDDF",
-    location: "德国 · 法兰克福",
-    tower: "118.550 MHz",
-    ground: "122.250 MHz",
-    approach: "128.500 MHz",
-    clearance: "122.200 MHz",
-    area: "130.300 MHz"
-  },
-  {
-    name: "巴黎戴高乐国际机场",
-    code: "LFPG",
-    location: "法国 · 巴黎",
-    tower: "118.650 MHz",
-    ground: "122.350 MHz",
-    approach: "128.700 MHz",
-    clearance: "122.400 MHz",
-    area: "130.500 MHz"
-  },
-  {
-    name: "迪拜国际机场",
-    code: "OMDB",
-    location: "阿联酋 · 迪拜",
-    tower: "118.750 MHz",
-    ground: "122.450 MHz",
-    approach: "128.900 MHz",
-    clearance: "122.600 MHz",
-    area: "130.700 MHz"
-  },
-  {
-    name: "悉尼金斯福德·史密斯国际机场",
-    code: "YSSY",
-    location: "澳大利亚 · 悉尼",
-    tower: "118.850 MHz",
-    ground: "122.550 MHz",
-    approach: "129.100 MHz",
-    clearance: "122.800 MHz",
-    area: "130.900 MHz"
-  },
-  {
-    name: "新加坡樟宜国际机场",
-    code: "WSSS",
-    location: "新加坡",
-    tower: "118.950 MHz",
-    ground: "122.650 MHz",
-    approach: "129.300 MHz",
-    clearance: "123.000 MHz",
-    area: "131.100 MHz"
+// 机场频率数据库 - 将从JSON文件加载
+let airportDatabase = [];
+
+// 加载机场数据
+async function loadAirportData() {
+  try {
+    const response = await fetch('china_airports.json');
+    if (!response.ok) {
+      throw new Error('Network response was not ok');
+    }
+    airportDatabase = await response.json();
+    console.log('成功加载中国机场数据，共', airportDatabase.length, '个机场');
+  } catch (error) {
+    console.error('加载机场数据失败:', error);
+    // 加载失败时使用备用数据
+    airportDatabase = [
+      {
+        name: "北京首都国际机场",
+        code: "ZBAA",
+        location: "中国 · 北京",
+        tower: "118.800 MHz",
+        ground: "121.700 MHz",
+        approach: "124.300 MHz",
+        clearance: "119.300 MHz",
+        area: "125.400 MHz"
+      },
+      {
+        name: "上海浦东国际机场",
+        code: "ZSPD",
+        location: "中国 · 上海",
+        tower: "118.700 MHz",
+        ground: "121.600 MHz",
+        approach: "125.500 MHz",
+        clearance: "119.500 MHz",
+        area: "127.200 MHz"
+      },
+      {
+        name: "广州白云国际机场",
+        code: "ZGGG",
+        location: "中国 · 广州",
+        tower: "118.100 MHz",
+        ground: "121.800 MHz",
+        approach: "126.100 MHz",
+        clearance: "119.900 MHz",
+        area: "127.700 MHz"
+      }
+    ];
   }
-];
+}
+
+// 页面加载时初始化
+window.addEventListener('DOMContentLoaded', loadAirportData);
 
 // DOM 元素
 const airportInput = document.getElementById('airport-input');
@@ -213,41 +62,118 @@ const errorText = document.getElementById('error-text');
 const resultCard = document.getElementById('result-card');
 const copyButton = document.getElementById('copy-button');
 const quickAccessButtons = document.querySelectorAll('.quick-access');
+const airportList = document.getElementById('airport-list');
+const cityName = document.getElementById('city-name');
+const airportItems = document.getElementById('airport-items');
+let currentQuery = '';
 
 // 查询机场频率
 function searchAirportFrequency(query) {
+  currentQuery = query.trim();
+  
   // 显示加载状态
   resultsContainer.classList.remove('hidden');
   welcomeSection.classList.add('hidden');
   loading.classList.remove('hidden');
   errorMessage.classList.add('hidden');
   resultCard.classList.add('hidden');
+  airportList.classList.add('hidden');
+  
+  // 检查数据库是否已加载
+  if (airportDatabase.length === 0) {
+    // 如果数据库尚未加载，显示等待信息
+    errorText.textContent = "机场数据正在加载中，请稍候再试...";
+    loading.classList.add('hidden');
+    errorMessage.classList.remove('hidden');
+    return;
+  }
   
   // 模拟网络延迟
   setTimeout(() => {
     loading.classList.add('hidden');
     
     // 转换查询为大写以匹配代码
-    const normalizedQuery = query.trim().toUpperCase();
+    const normalizedQuery = currentQuery.toUpperCase();
     
-    // 搜索机场
-    const foundAirport = airportDatabase.find(airport => 
-      airport.code === normalizedQuery || 
-      airport.name.includes(query) || 
-      airport.name.toUpperCase().includes(normalizedQuery)
-    );
+    // 首先检查是否是精确的机场代码匹配
+    const exactCodeMatch = airportDatabase.find(airport => airport.code === normalizedQuery);
     
-    if (foundAirport) {
-      // 显示结果
-      displayAirportData(foundAirport);
+    if (exactCodeMatch) {
+      // 如果是精确的代码匹配，直接显示该机场
+      displayAirportData(exactCodeMatch);
       resultCard.classList.remove('hidden');
       resultCard.classList.add('fade-in');
     } else {
-      // 显示错误
-      errorText.textContent = `未找到"${query}"的机场信息，请检查输入`;
-      errorMessage.classList.remove('hidden');
+      // 搜索城市或机场名称
+      // 从位置信息中提取城市名称（例如从"中国 · 北京"中提取"北京"）
+      const cityAirports = airportDatabase.filter(airport => {
+        // 检查机场名称是否包含查询
+        const nameMatch = airport.name.includes(currentQuery) || airport.name.toUpperCase().includes(normalizedQuery);
+        
+        // 检查位置信息中的城市是否包含查询
+        const locationParts = airport.location.split(' · ');
+        const cityName = locationParts.length > 1 ? locationParts[1] : locationParts[0];
+        const cityMatch = cityName.includes(currentQuery) || cityName.toUpperCase().includes(normalizedQuery);
+        
+        return nameMatch || cityMatch;
+      });
+      
+      if (cityAirports.length > 0) {
+        if (cityAirports.length === 1) {
+          // 只有一个匹配的机场，直接显示
+          displayAirportData(cityAirports[0]);
+          resultCard.classList.remove('hidden');
+          resultCard.classList.add('fade-in');
+        } else {
+          // 多个匹配的机场，显示机场列表
+          displayAirportList(cityAirports, currentQuery);
+        }
+      } else {
+        // 显示错误
+        errorText.textContent = `未找到与"${currentQuery}"相关的中国机场信息，请检查输入`;
+        errorMessage.classList.remove('hidden');
+      }
     }
   }, 800);
+}
+
+// 显示机场列表
+function displayAirportList(airports, query) {
+  // 从第一个机场获取城市名称
+  const locationParts = airports[0].location.split(' · ');
+  const city = locationParts.length > 1 ? locationParts[1] : locationParts[0];
+  
+  // 设置城市名称标题
+  cityName.textContent = `${city}的机场列表 (共${airports.length}个)`;
+  
+  // 清空现有的机场项目
+  airportItems.innerHTML = '';
+  
+  // 添加每个机场的项目
+  airports.forEach(airport => {
+    const airportItem = document.createElement('div');
+    airportItem.className = 'bg-white rounded-lg p-4 border border-gray-200 hover:border-primary cursor-pointer transition-all hover:shadow-md';
+    airportItem.innerHTML = `
+      <h4 class="font-semibold text-dark">${airport.name}</h4>
+      <p class="text-primary font-medium">${airport.code}</p>
+    `;
+    
+    // 添加点击事件
+    airportItem.addEventListener('click', () => {
+      // 显示选中的机场信息
+      displayAirportData(airport);
+      resultCard.classList.remove('hidden');
+      resultCard.classList.add('fade-in');
+    });
+    
+    airportItems.appendChild(airportItem);
+  });
+  
+  // 显示机场列表
+  airportList.classList.remove('hidden');
+  
+  // 隐藏结果卡片，直到用户选择一个机场
+  resultCard.classList.add('hidden');
 }
 
 // 显示机场数据
